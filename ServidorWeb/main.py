@@ -135,11 +135,11 @@ def mensaje():
 	ip = request.remote_addr
 	global colaMensajes
 	global listaNodos
-	carnet = listaNodos.buscarIP(ip).carnet
+	carnet = listaNodos.buscarIP(ip)
 	if carnet == None:
 		return "false"
 	else:
-		colaMensajes.enqueue(Mensaje(carnet,ip,msj))
+		colaMensajes.enqueue(Mensaje(carnet.carnet,ip,msj))
 		return "true"
 
 @servidor.route('/respuesta',methods=['POST']) 
@@ -149,12 +149,12 @@ def respuesta():
 	resultado = request.form['resultado']
 	ip = request.remote_addr
 	global listaNodos
-	carnet = listaNodos.buscarIP(ip).carnet
+	carnet = listaNodos.buscarIP(ip)
 	if carnet == None:
 		return "false"
 	else:
 		global listaRespuesta
-		listaRespuesta.agregar(Respuesta(carnet,ip,inorden,postorden,resultado))
+		listaRespuesta.agregar(Respuesta(carnet.carnet,ip,inorden,postorden,resultado))
 		return "true"
 
 
