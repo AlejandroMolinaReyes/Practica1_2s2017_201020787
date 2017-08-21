@@ -9,11 +9,12 @@ def cargaJSON(path):
 		full_file = os.path.abspath(os.path.join(path))
 		leer = json.loads(open(full_file).read()).values()
 		for nodos in leer:
-			yield 'admin',nodos['local'],nodos['mascara']
+			yield "201020787",nodos['local'],nodos['mascara']
 			for nodo in nodos['nodo']:
-				yield nodo['carnet'],nodo['ip'],nodo['mascara']
+				yield "",nodo['ip'],nodo['mascara']
 	except Exception as error:
+		print("error en la carga JSON")
 		yield False,False,False
 
-#for usuario,ip,mascara in cargaJSON('C:\Practica1EDD\cargaJSON.json'):
+#for usuario,ip,mascara in cargaJSON('C:\ServidorWeb\cargaJSON.json'):
 	#print(usuario,ip,mascara)

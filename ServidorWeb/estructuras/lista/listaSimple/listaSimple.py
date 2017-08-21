@@ -14,7 +14,7 @@ class ListaSimple:
 			return False
 
 
-	def agregar_final(self, dato):
+	def agregar(self, dato):
 		if self.vacio():
 			self.__primero = self.__ultimo = Nodo(dato)
 		else:
@@ -22,18 +22,28 @@ class ListaSimple:
 			self.__ultimo.siguiente = nuevo
 			self.__ultimo = nuevo
 
-	def recorrer_inicio_fin(self):
+	def recorrer(self):
 		aux = self.__primero
+		lista = ""
 		while aux:
-			print(aux.dato)
+			lista = lista+aux.dato.carnet+","+aux.dato.ip+","+aux.dato.mascara+";"
 			aux = aux.siguiente
+		return lista
 		
 
-	def buscar(self, nombre):
+	def buscarIP(self, ip):
 		aux = self.__primero
 		if self.__primero!=None:
 			while aux:
-				if aux.dato == nombre:
+				if aux.dato.ip == ip:
+					return aux.dato
+				aux = aux.siguiente
+
+	def buscarCarnet(self, carnet):
+		aux = self.__primero
+		if self.__primero!=None:
+			while aux:
+				if aux.dato.carnet == carnet:
 					return aux.dato
 				aux = aux.siguiente
 

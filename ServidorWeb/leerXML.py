@@ -18,6 +18,7 @@ def cargaXML(path):
 			for ip  in IP:
 				yield ip.text.strip(),texto.strip()		
 	except Exception as error:
+		print("Error en la carga del XML")
 		yield False,False
 
 #for ip,texto in cargaXML("carga.xml"):

@@ -1,0 +1,15 @@
+C:\Users\alejandro\Documents\GitHub\Practica1_2s2017_201020787\Cliente\Cliente\bin\Debug\Cliente.exe.config
+C:\Users\alejandro\Documents\GitHub\Practica1_2s2017_201020787\Cliente\Cliente\bin\Debug\Cliente.exe
+C:\Users\alejandro\Documents\GitHub\Practica1_2s2017_201020787\Cliente\Cliente\bin\Debug\Cliente.pdb
+C:\Users\alejandro\Documents\GitHub\Practica1_2s2017_201020787\Cliente\Cliente\obj\Debug\Cliente.csprojResolveAssemblyReference.cache
+C:\Users\alejandro\Documents\GitHub\Practica1_2s2017_201020787\Cliente\Cliente\obj\Debug\Cliente.Properties.Resources.resources
+C:\Users\alejandro\Documents\GitHub\Practica1_2s2017_201020787\Cliente\Cliente\obj\Debug\Cliente.csproj.GenerateResource.Cache
+C:\Users\alejandro\Documents\GitHub\Practica1_2s2017_201020787\Cliente\Cliente\obj\Debug\Cliente.exe
+C:\Users\alejandro\Documents\GitHub\Practica1_2s2017_201020787\Cliente\Cliente\obj\Debug\Cliente.pdb
+C:\Users\alejandro\Documents\GitHub\Practica1_2s2017_201020787\Cliente\Cliente\obj\Debug\Cliente.MenuPrincipal.resources
+C:\Users\alejandro\Documents\GitHub\Practica1_2s2017_201020787\Cliente\Cliente\obj\Debug\Cliente.Dashboard.resources
+C:\Users\alejandro\Documents\GitHub\Practica1_2s2017_201020787\Cliente\Cliente\obj\Debug\Cliente.AdministrarMensajes.resources
+C:\Users\alejandro\Documents\GitHub\Practica1_2s2017_201020787\Cliente\Cliente\obj\Debug\Cliente.EnviarMensajes.resources
+C:\Users\alejandro\Documents\GitHub\Practica1_2s2017_201020787\Cliente\Cliente\obj\Debug\Cliente.csproj.CoreCompileInputs.cache
+C:\Users\alejandro\Documents\GitHub\Practica1_2s2017_201020787\Cliente\Cliente\obj\Debug\Cliente.ColaMensajes.resources
+C:\Users\alejandro\Documents\GitHub\Practica1_2s2017_201020787\Cliente\Cliente\obj\Debug\Cliente.RepuestaMensajes.resources

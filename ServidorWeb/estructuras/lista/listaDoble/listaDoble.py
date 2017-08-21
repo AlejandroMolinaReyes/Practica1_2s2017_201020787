@@ -14,7 +14,7 @@ class ListaDoble:
 			return False
 
 
-	def agregar_final(self, dato):
+	def agregar(self, dato):
 		if self.vacio():
 			self.__primero = self.__ultimo = Nodo(dato)
 		else:
@@ -26,13 +26,13 @@ class ListaDoble:
 	def recorrer_inicio_fin(self):
 		aux = self.__primero
 		while aux:
-			print(aux.dato)
+			yield aux.dato
 			aux = aux.siguiente
 		
 	def recorrer_fin_inicio(self):
 		aux = self.__ultimo
 		while aux:
-			print(aux.dato)
+			yield aux.dato
 			aux = aux.anterior
 
 	def buscar(self, nombre):

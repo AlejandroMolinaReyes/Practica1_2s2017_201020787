@@ -36,8 +36,8 @@ class Pila:
 
 	def mostrar(self):
 		aux = self.__primero
-		while aux!=None:
-			print(aux.dato)
+		while aux:
+			yield aux.dato
 			aux = aux.siguiente
 
 
