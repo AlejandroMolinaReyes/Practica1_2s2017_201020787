@@ -149,12 +149,12 @@ def respuesta():
 	resultado = request.form['resultado']
 	ip = request.remote_addr
 	global listaNodos
-	carnet = listaNodos.buscarIP(ip).carnet
+	carnet = listaNodos.buscarIP(ip)
 	if carnet == None:
 		return "false"
 	else:
 		global listaRespuesta
-		listaRespuesta.agregar(Respuesta(carnet,ip,inorden,postorden,resultado))
+		listaRespuesta.agregar(Respuesta(carnet.carnet,ip,inorden,postorden,resultado))
 		return "true"
 
 
